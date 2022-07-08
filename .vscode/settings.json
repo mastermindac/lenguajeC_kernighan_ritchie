@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "16_calculadora_header": "c",
+        "librerialineas.h": "c",
+        "gestorbuffer.h": "c"
+    }
+}
