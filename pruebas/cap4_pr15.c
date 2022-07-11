@@ -3,6 +3,7 @@
     modificando el uso de los punteros con los arreglos
 
     modificacion: añadir nueva funcion n caracteres strcpy
+    
 */
 #include <stdio.h>
 #define MAXLINE 1000 /*tamaño máximo de la línea*/
