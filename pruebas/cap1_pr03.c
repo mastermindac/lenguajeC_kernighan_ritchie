@@ -1,9 +1,7 @@
 /*
     CURSO C LIBRO KERNIGHAN & RITCHIE
-    programa de converion de Fahrenheit a Celsius
-
-    capitulo1, variables, expresiones e iteraciones
-    modificacion: bucle for
+    tabla invertida
+    modificacion: cambiar los límites del for para que realice una impresión invertida
 */
 
 #include <stdio.h>

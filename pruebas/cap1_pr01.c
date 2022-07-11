@@ -1,3 +1,10 @@
+/*
+    CURSO C LIBRO KERNIGHAN & RITCHIE
+    prueba sobre imprimir por pantalla
+    modificacion: imprimir pregunta y respuesta
+*/
+
+
 #include <stdio.h>
 
 main(){

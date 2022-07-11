@@ -1,12 +1,9 @@
 /*
     CURSO C LIBRO KERNIGHAN & RITCHIE
-    programa flujo de datos de entrada y salida
-
-    capitulo1, variables, expresiones, iteraciones y decisiones
-    modificacion: contar lineas, sentencia if
+    prueba sobre control de flujo
+    modificacion: contar puntos y comas
 */
 #include <stdio.h>
-/* cuenta digitos, espacios blanco y otros*/
 
 
 main(){

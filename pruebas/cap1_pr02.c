@@ -1,8 +1,7 @@
 /*
     CURSO C LIBRO KERNIGHAN & RITCHIE
-    programa de converion de Celsius a Fahrenheit
-
-    capitulo1, variables, expresiones e iteraciones
+    prueba sobre conversión de temperaturas
+    modificacion: de celsius a fahrenheit
 */
 
 #include <stdio.h>

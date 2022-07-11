@@ -1,9 +1,7 @@
 /*
     CURSO C LIBRO KERNIGHAN & RITCHIE
-    programa flujo de datos de entrada y salida
-
-    capitulo1, variables, expresiones, iteraciones y decisiones
-    herramientass: getchar,putchar
+    imprimir en salida
+    modificacion: usar printf en vez de putchar
 */
 
 #include <stdio.h>
