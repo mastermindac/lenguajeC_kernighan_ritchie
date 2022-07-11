@@ -1,9 +1,7 @@
 /*
     CURSO C LIBRO KERNIGHAN & RITCHIE
-    conversor de char[] a numero
-
-    a partir de un array de caracteres convertiremos a un doble
-    herramientas: funciones, arreglos de cadenas
+    modificacion del conversors
+    modificacion: recogiendo el separador de decimales
 */
 
 #include <stdio.h>
