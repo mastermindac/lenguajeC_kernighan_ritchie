@@ -1,6 +1,6 @@
 /*
     CURSO C LIBRO KERNIGHAN & RITCHIE
-    mmodificacion de conversion de temperaturas
+    modificacion de conversion de temperaturas
     modificacion: crear funcion de conversion
 */
 

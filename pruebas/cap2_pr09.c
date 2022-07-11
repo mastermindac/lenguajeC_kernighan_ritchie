@@ -1,9 +1,7 @@
 /*
     CURSO C LIBRO KERNIGHAN & RITCHIE
-    linea más larga
-
-    capitulo2, arreglos, funciones
-    herramientas: arrays de caracteres
+    prueba linea más larga
+    modificacion: eliminar espacios en blanco iniciales
 */
 
 #include <stdio.h>
@@ -34,13 +32,20 @@ main(){
 /*getline: lee una linea en s, regresa su longitud*/
 int getline2(char s[],int lim){
     int c,i;
-
-    for(i=0;(i<lim-1)&&((c=getchar())!=EOF)&&(c!='\n');++i)
-        s[i]=c;
-    if(c=='\n'){
-        s[i]=c;
-        ++i;
+    i=0;
+    while(((c=getchar())==' ')&&(c!=EOF)) //Elimina los espacios en blanco iniciales
+       ;                     //No cuentan para la contabilizacion de linea más larga
+    if((c!=' ')&&(c!=EOF)) s[i]=c;
+    if(c!=EOF){
+        for(i=1;(i<lim-1)&&((c=getchar())!=EOF)&&(c!='\n');++i)
+            s[i]=c;
+        if(c=='\n'){
+            s[i]=c;
+            ++i;
+        }
     }
+    s[i]='\0';
+    return i;
     s[i]='\0';
     return i;
 }
